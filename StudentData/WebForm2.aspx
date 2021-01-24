@@ -49,7 +49,7 @@
             <h2 style="text-align: center;font-size: 50px;">Table</h2>
         <br>
         <div>
-            <table class="table table-striped">
+            <table class="table table-striped" id="table_id">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -60,18 +60,28 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
+      <td>2018060</td>
+      <td>Thomas</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
+      <td>2018016</td>
+      <td>Cyril</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
+      <td>2018041</td>
+      <td>Cuntly</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>2018037</td>
+      <td>Rohan</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>2018052</td>
+      <td>Sarath</td>
     </tr>
   </tbody>
 </table>

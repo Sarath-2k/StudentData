@@ -32,7 +32,7 @@
             </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <a class="navbar-brand" href="#">
-                        <img src="./images/kerala-tourism-title.png" height="70" alt="" loading="lazy">
+                        <img src="./images/kerala-tourism-title.png" height="60" alt="" loading="lazy">
                     </a>
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0 head-tag">
                         <li class="nav-item">
@@ -53,17 +53,20 @@
     <br>
     <div class="container">
             <h2 style="text-align: center;font-size: 50px;">Student Data</h2>
-
-            <form action="profile.html" onsubmit="return signupvalid()">
+            
+          
+            <form onsubmit="return signupvalid()" >
                 <div class="form-group ">
                     <label>Name</label>
-                    <input type="text" required class="form-control" id="name" placeholder="Type your Fullname" >
+                   <<input type="text" required class="form-control" id="name" placeholder="Full Number">
+                    <!-- <input id="Text1" type="text" required size="60" CssClass="form-control" placeholder="Fullname"/> -->
                 </div>
                 <div class="form-group ">
                     <label>Roll Number</label>
-                    <input type="number" required class="form-control" id="roll" placeholder="Roll number">
+                   <<input type="number" required class="form-control" id="roll" placeholder="Roll number">
+                    <!--<input id="Text2" type="text" required size="60" CssClass="form-control" placeholder="Roll Number"/>-->
                 </div>
-                <button type="button" class="btn btn-primary" style="background-color: teal;" onclick="myFunction()">Add </button>
+                <button type="button" class="btn btn-primary" style="background-color: teal;" onclick="myFunction()" id="Button1">Add </button>
             </form>
 
         </div>
