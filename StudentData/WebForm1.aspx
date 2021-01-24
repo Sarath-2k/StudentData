@@ -13,7 +13,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <!-- BOOTSTRAPEND -->
     <link href="style.css" rel="stylesheet" type="text/css" />
-
+    <script type = "text/javascript">
+         <!--
+    function Popup() {
+        alert("Value Added");
+    }
+         //-->
+    </script>
 </head>
     
 <body>
@@ -57,13 +63,16 @@
                     <label>Roll Number</label>
                     <input type="number" required class="form-control" id="roll" placeholder="Roll number">
                 </div>
-                <button type="submit" class="btn btn-primary" style="background-color: teal;">Add</button>
-                
+                <button type="button" class="btn btn-primary" style="background-color: teal;" onclick="myFunction()">Add </button>
             </form>
 
         </div>
 
-
+    <script>
+        function myFunction() {
+            alert("Value Added to the table");
+        }
+    </script>
 
 </body>
 
