@@ -58,12 +58,12 @@
             <form onsubmit="return signupvalid()" >
                 <div class="form-group ">
                     <label>Name</label>
-                   <<input type="text" required class="form-control" id="name" placeholder="Full Number">
+                   <input type="text" required class="form-control" id="name" placeholder="Full Name">
                     <!-- <input id="Text1" type="text" required size="60" CssClass="form-control" placeholder="Fullname"/> -->
                 </div>
                 <div class="form-group ">
                     <label>Roll Number</label>
-                   <<input type="number" required class="form-control" id="roll" placeholder="Roll number">
+                   <input type="number" required class="form-control" id="roll" placeholder="Roll number">
                     <!--<input id="Text2" type="text" required size="60" CssClass="form-control" placeholder="Roll Number"/>-->
                 </div>
                 <button type="button" class="btn btn-primary" style="background-color: teal;" onclick="myFunction()" id="Button1">Add </button>
